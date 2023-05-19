@@ -25,4 +25,6 @@
 }, "env": {
         "cypress/globals": true
       }
+        
+
 }

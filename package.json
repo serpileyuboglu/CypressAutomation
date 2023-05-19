@@ -9,7 +9,7 @@
     "cypress-headless": "cypress run --headless -b chrome",
     "eslint": "eslint cypress",
     "eslint-fix": "eslint cypress --fix"
-},
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
