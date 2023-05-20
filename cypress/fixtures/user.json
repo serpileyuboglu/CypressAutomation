@@ -8,6 +8,7 @@
     "department" : "legal"
     },
     "user2":{
-
+        "username": "tomsmith",
+        "password": "SuperSecretPassword"
     }
 }

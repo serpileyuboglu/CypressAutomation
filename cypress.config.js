@@ -1,8 +1,11 @@
-const { defineConfig } = require("cypress");
+import { defineConfig } from "cypress";
 
-module.exports = defineConfig({
+export default defineConfig({
   e2e: {
     baseUrl:'https://practice.cydeo.com/',
+    env:{
+      login:"/login"
+    },
     video:false,//it will not create video
     retries:1,
     defaultCommandTimeout:5000,
